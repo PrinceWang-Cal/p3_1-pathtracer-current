@@ -1,0 +1,17 @@
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CMakeFiles/install.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CMakeFiles/pathtracer.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CMakeFiles/pt31.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/CMakeFiles/install.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/CMakeFiles/CGL.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/CMakeFiles/ALL_BUILD.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/CMakeFiles/ZERO_CHECK.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glew/CMakeFiles/install.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glew/CMakeFiles/glew.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/install.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/uninstall.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/CMakeFiles/install.dir
+/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/CMakeFiles/glfw.dir

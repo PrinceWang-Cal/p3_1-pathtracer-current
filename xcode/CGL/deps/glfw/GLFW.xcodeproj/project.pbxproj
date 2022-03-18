@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3E756FABC9FC4F6FAA3DA391 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10BFE4A5A4C14AC3849A32F8 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				CDDF3A942FE3B8DCA750EF83 /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				A6A1D2603FB644E488C2CC36 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		554AF8C3018C47D5ACB3EF4D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F2F43EEC91F4E1297000D5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A56F6D40C8B5CD05DC9D5F4D /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B335C82036594D8989442BAB /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C24202534A84F859E046387 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				1CC3D970574A434EAA335767 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		CE60A01DBC71437099A14479 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F4C0055F56249B099E5C952 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				92BF5DC70D28A9484BECE64E /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				FB659A6D437140E7BD5C20C3 /* PBXTargetDependency */,
+				2FD5A783A26945378514D23C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B82AEBD05A2440682A28000 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 8076C4A9B9FD4C47B38ECEE3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */; };
+		0FC381A7801F425F890F4816 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = F179EBD5CDE64793A2CBBE29 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */; };
+		19C0898D2A554C9C91EF9E2E /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 9A1138DF29C74775B146644D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */; };
+		26BA7A824712472DAA121DDE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 0557677139D4483586E5DB7F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		2C2DB216DD15463EA07EA1B9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = 3970AC986361420DB58B4ADD /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */; };
+		2C7DBE6F9B774F89B0461F25 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = AFD730F2B28B4A0EBD606AA9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		303939E766894A99BDFF2BC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 46914664ECBA454BA1FE3EB4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		32AEF8CFC7934D08BD1BAAB0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 040D6857C9EB4F429306EBEC /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */; };
+		3B3A71B1FFEB44BCB70BAA7F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 142DFF84F9A340EA97FEDEB2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		49E5384468884EF9B4AB1E03 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = BAE4E05E059C4212BF601D6D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */; };
+		4D7BF8231323413CACE8990D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 11065F15137545C8906A2253 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		546C43DE307E4664A67F9C4A /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 20D3A5CFD646469591912420 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		561B84037E1441FEB0C413EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = EF73D8432D8D4806BB5B6105 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		5ED43442C31946D58609EABA /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 81F44EC3314F4412A863ECDB /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */; };
+		67B9AA8896AB488BBBFBA363 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = EAC3910476E94F069C19203C /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */; };
+		69BEBF1490364363AD4223BF /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 2EB690F7EAE44429A1B2AA49 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */; };
+		6CDAC55B9022433A8953E881 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = F96BEEB3C6474510A2BAD6DE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/mappings.h */; };
+		7390B95337674C5EA35519D3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = DD43DCF569BF41B18B364F04 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		79FE27ABE2874FC7A3F9E3E4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 60334CC68E80470DA00E57E3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		87125797211840A0AFD6C273 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = C3A33FBAD93F4219BC8B7E16 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		8F51515467BA42369AD898A9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = B6D3E36A93254FF2A93DA089 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		A6E00F3C6EFF4B1CBA5EE013 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 6E5772B224F74F838AD55CBE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */; };
+		A827DDABA11542AABADB8EC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = F7474387BBE94769B099D913 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.h */; };
+		BC61316707C84FD19F6A883F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = EC33072109BF4443AE29BB36 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/internal.h */; };
+		C5E0AFE8A6D34B91BAA1860F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = F08264E5826D476EB341FF4A /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */; };
+		EA2287C1924249BDBCED8552 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 7CEEDE254B6648C88C3566F6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */; };
+		F1A738C3F7744818B7C9D528 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 1401D3CD95864E74B6BA1679 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		38147C3936234A8EAFCCA7BE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AEDB8A286B4F42B49F5871C4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CC67DD9F89E54C53B9A9A248 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ECF9C130FB7B4AF1BE1979AA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1CFB1D76F6F44ECCB2B18EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E074EF5CD3F4377AD398861;
+			remoteInfo = glfw;
+		};
+		35A5E03F61504961BED6DAFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554AF8C3018C47D5ACB3EF4D;
+			remoteInfo = ZERO_CHECK;
+		};
+		8D50DC9E22EB4C7483143E21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE60A01DBC71437099A14479;
+			remoteInfo = ALL_BUILD;
+		};
+		92C13EE31886478CBE2FD2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554AF8C3018C47D5ACB3EF4D;
+			remoteInfo = ZERO_CHECK;
+		};
+		C6027B4FB9C54691AEAA4814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554AF8C3018C47D5ACB3EF4D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040D6857C9EB4F429306EBEC /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		0557677139D4483586E5DB7F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		11065F15137545C8906A2253 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		1401D3CD95864E74B6BA1679 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		142DFF84F9A340EA97FEDEB2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		20D3A5CFD646469591912420 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../../xcode/CGL/deps/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		2EB690F7EAE44429A1B2AA49 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		3970AC986361420DB58B4ADD /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		46914664ECBA454BA1FE3EB4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		586217261EAF45278A2CE193 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		60334CC68E80470DA00E57E3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		6E5772B224F74F838AD55CBE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		7CEEDE254B6648C88C3566F6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		8076C4A9B9FD4C47B38ECEE3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		81F44EC3314F4412A863ECDB /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A1138DF29C74775B146644D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		AFD730F2B28B4A0EBD606AA9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		B6D3E36A93254FF2A93DA089 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		BAE4E05E059C4212BF601D6D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		C3A33FBAD93F4219BC8B7E16 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		D0626E40D7CD4DC98FABD1AB /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0AB40390B45EAB219E857 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DD43DCF569BF41B18B364F04 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		EAC3910476E94F069C19203C /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		EC33072109BF4443AE29BB36 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		EF73D8432D8D4806BB5B6105 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		F08264E5826D476EB341FF4A /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		F179EBD5CDE64793A2CBBE29 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		F7474387BBE94769B099D913 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		F96BEEB3C6474510A2BAD6DE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223AB72641B1486D9B34F06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0461CCED3F1F4B65B9622FEB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8076C4A9B9FD4C47B38ECEE3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */,
+				EAC3910476E94F069C19203C /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */,
+				46914664ECBA454BA1FE3EB4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */,
+				040D6857C9EB4F429306EBEC /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */,
+				BAE4E05E059C4212BF601D6D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */,
+				B6D3E36A93254FF2A93DA089 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/context.c */,
+				C3A33FBAD93F4219BC8B7E16 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.c */,
+				60334CC68E80470DA00E57E3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/init.c */,
+				11065F15137545C8906A2253 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/input.c */,
+				AFD730F2B28B4A0EBD606AA9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/monitor.c */,
+				6E5772B224F74F838AD55CBE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */,
+				1401D3CD95864E74B6BA1679 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */,
+				7CEEDE254B6648C88C3566F6 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */,
+				EF73D8432D8D4806BB5B6105 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/vulkan.c */,
+				0557677139D4483586E5DB7F /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		24CB462AA73E47E68C822080 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				43BD8CDFAD434968BC09B17F /* CMake Rules */,
+				586217261EAF45278A2CE193 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		363552896BD44EE988F83A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43BD8CDFAD434968BC09B17F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5F1F3EA935474C939C226A13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0626E40D7CD4DC98FABD1AB /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24477F3680C401B84B8C5BB /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				24CB462AA73E47E68C822080 /* uninstall */,
+				CF56338A0DBE4DBAB1E2BFAF /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		BF2BE9D9F5A24715B686E0AE /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DA55CAB48E794AACB8ECD227 /* CMake Rules */,
+				D0E0AB40390B45EAB219E857 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CF56338A0DBE4DBAB1E2BFAF /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8ABC7EE274B179B935ED6 /* Header Files */,
+				0461CCED3F1F4B65B9622FEB /* Source Files */,
+				81F44EC3314F4412A863ECDB /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		DA55CAB48E794AACB8ECD227 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EFAF4E60EF814CD89DCE8DDE = {
+			isa = PBXGroup;
+			children = (
+				B24477F3680C401B84B8C5BB /* GLFW3 */,
+				BF2BE9D9F5A24715B686E0AE /* ALL_BUILD */,
+				5F1F3EA935474C939C226A13 /* Products */,
+				363552896BD44EE988F83A54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF8ABC7EE274B179B935ED6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD43DCF569BF41B18B364F04 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				142DFF84F9A340EA97FEDEB2 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				F08264E5826D476EB341FF4A /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.h */,
+				F179EBD5CDE64793A2CBBE29 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_platform.h */,
+				F7474387BBE94769B099D913 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.h */,
+				EC33072109BF4443AE29BB36 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/internal.h */,
+				F96BEEB3C6474510A2BAD6DE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/mappings.h */,
+				2EB690F7EAE44429A1B2AA49 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.h */,
+				9A1138DF29C74775B146644D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.h */,
+				3970AC986361420DB58B4ADD /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.h */,
+				20D3A5CFD646469591912420 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E074EF5CD3F4377AD398861 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1DD5646B8441F3BA56A94D /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				56281A4ED91A4F52BF7EC396 /* Sources */,
+				223AB72641B1486D9B34F06B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A2A5E072764F3DB9BEBB5F /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = D0626E40D7CD4DC98FABD1AB /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A0CD5BC2CE496ABACA7F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = 69C23DA3087F48B3B1E42291 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				ECF9C130FB7B4AF1BE1979AA /* Debug */,
+				AEDB8A286B4F42B49F5871C4 /* Release */,
+				38147C3936234A8EAFCCA7BE /* MinSizeRel */,
+				CC67DD9F89E54C53B9A9A248 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EFAF4E60EF814CD89DCE8DDE;
+			projectDirPath = ../../../../CGL/deps/glfw;
+			projectRoot = "";
+			targets = (
+				CE60A01DBC71437099A14479 /* ALL_BUILD */,
+				554AF8C3018C47D5ACB3EF4D /* ZERO_CHECK */,
+				0E074EF5CD3F4377AD398861 /* glfw */,
+				B335C82036594D8989442BAB /* install */,
+				3E756FABC9FC4F6FAA3DA391 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		92BF5DC70D28A9484BECE64E /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A56F6D40C8B5CD05DC9D5F4D /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  make -f /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		CDDF3A942FE3B8DCA750EF83 /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+"/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.21.3_1/bin/cmake -P /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56281A4ED91A4F52BF7EC396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B82AEBD05A2440682A28000 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_init.m */,
+				67B9AA8896AB488BBBFBA363 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_joystick.m */,
+				303939E766894A99BDFF2BC3 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_monitor.m */,
+				32AEF8CFC7934D08BD1BAAB0 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_time.c */,
+				49E5384468884EF9B4AB1E03 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/cocoa_window.m */,
+				8F51515467BA42369AD898A9 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/context.c */,
+				87125797211840A0AFD6C273 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/egl_context.c */,
+				79FE27ABE2874FC7A3F9E3E4 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/init.c */,
+				4D7BF8231323413CACE8990D /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/input.c */,
+				2C7DBE6F9B774F89B0461F25 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/monitor.c */,
+				A6E00F3C6EFF4B1CBA5EE013 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/nsgl_context.m */,
+				F1A738C3F7744818B7C9D528 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/osmesa_context.c */,
+				EA2287C1924249BDBCED8552 /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/posix_thread.c */,
+				561B84037E1441FEB0C413EF /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/vulkan.c */,
+				26BA7A824712472DAA121DDE /* /Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CC3D970574A434EAA335767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE60A01DBC71437099A14479 /* ALL_BUILD */;
+			targetProxy = 8D50DC9E22EB4C7483143E21 /* PBXContainerItemProxy */;
+		};
+		2FD5A783A26945378514D23C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E074EF5CD3F4377AD398861 /* glfw */;
+			targetProxy = 1CFB1D76F6F44ECCB2B18EB3 /* PBXContainerItemProxy */;
+		};
+		65A2A5E072764F3DB9BEBB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554AF8C3018C47D5ACB3EF4D /* ZERO_CHECK */;
+			targetProxy = 92C13EE31886478CBE2FD2B5 /* PBXContainerItemProxy */;
+		};
+		A6A1D2603FB644E488C2CC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554AF8C3018C47D5ACB3EF4D /* ZERO_CHECK */;
+			targetProxy = C6027B4FB9C54691AEAA4814 /* PBXContainerItemProxy */;
+		};
+		FB659A6D437140E7BD5C20C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554AF8C3018C47D5ACB3EF4D /* ZERO_CHECK */;
+			targetProxy = 35A5E03F61504961BED6DAFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C39D169BD54470B07DBE29 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0B817CDC75BE4D838F9CDADF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC    -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0B9456373DC94C7A98BEF0D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		167FF79FBDCB4738A55D3FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1C2D6E4B5D8742DF8AA27790 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1DFF6529A12E431289A71395 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32DAC751C9884A148011FCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D1D3AACD1524420A450FA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4A0B86E3703C48969ED118B0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E8D63EDC2C6425097BCEAA3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		642636F9764D4BF193EEE54E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		70C86CEDE2C54AB9903756BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8D5C0ACB2ACC4DFABDC27FD2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		906C92898C964C9695CDEA3D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/build";
+			};
+			name = RelWithDebInfo;
+		};
+		93CDC22D166F4FFEB8D0A04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/include","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/CGL/deps/glfw/src","/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		98F15DFFF5CC4B1E94CEA364 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9E58A548F2DB4916888A3FA5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/build";
+			};
+			name = MinSizeRel;
+		};
+		AF76B04D5F444EA5AFCCF988 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B6BF4A0EAFA34160ACAB63AC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BEAA15F476C1421DAE619FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/build";
+			};
+			name = Release;
+		};
+		DCB564C5B1FD44CD88FEB0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw/build";
+			};
+			name = Debug;
+		};
+		E70FA52527AB4C4DA92BF885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E99159FDDCF64CC5B56669F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ED52D23AFEA74CEC8A301D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/princewang/documents/UCB_Spring_2022/cs184/newp32/p3_1-pathtracer-current/xcode/CGL/deps/glfw";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BFE4A5A4C14AC3849A32F8 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED52D23AFEA74CEC8A301D5E /* Debug */,
+				70C86CEDE2C54AB9903756BE /* Release */,
+				5E8D63EDC2C6425097BCEAA3 /* MinSizeRel */,
+				1C2D6E4B5D8742DF8AA27790 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F4C0055F56249B099E5C952 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1D3AACD1524420A450FA6F /* Debug */,
+				AF76B04D5F444EA5AFCCF988 /* Release */,
+				08C39D169BD54470B07DBE29 /* MinSizeRel */,
+				98F15DFFF5CC4B1E94CEA364 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C24202534A84F859E046387 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E70FA52527AB4C4DA92BF885 /* Debug */,
+				E99159FDDCF64CC5B56669F1 /* Release */,
+				4A0B86E3703C48969ED118B0 /* MinSizeRel */,
+				1DFF6529A12E431289A71395 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		69C23DA3087F48B3B1E42291 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB564C5B1FD44CD88FEB0B0 /* Debug */,
+				BEAA15F476C1421DAE619FCC /* Release */,
+				9E58A548F2DB4916888A3FA5 /* MinSizeRel */,
+				906C92898C964C9695CDEA3D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E1DD5646B8441F3BA56A94D /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B817CDC75BE4D838F9CDADF /* Debug */,
+				93CDC22D166F4FFEB8D0A04E /* Release */,
+				8D5C0ACB2ACC4DFABDC27FD2 /* MinSizeRel */,
+				642636F9764D4BF193EEE54E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F2F43EEC91F4E1297000D5B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32DAC751C9884A148011FCE9 /* Debug */,
+				167FF79FBDCB4738A55D3FDB /* Release */,
+				B6BF4A0EAFA34160ACAB63AC /* MinSizeRel */,
+				0B9456373DC94C7A98BEF0D2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A0CD5BC2CE496ABACA7F9A /* Project object */;
+}

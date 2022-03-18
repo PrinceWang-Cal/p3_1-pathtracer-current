@@ -27,9 +27,24 @@ bool Triangle::has_intersection(const Ray &r) const {
   // The difference between this function and the next function is that the next
   // function records the "intersection" while this function only tests whether
   // there is a intersection.
+    Vector3D E1 = p2 - p1;
+    Vector3D E2 = p3 - p1;
+    Vector3D S = r.o - p1;
+    Vector3D S1 = cross(r.d, E2);
+    Vector3D S2 = cross(S, E1);
+    
+    double determinant_inverse = 1 / dot(S1, E1);
+    Vector3D RHS = determinant_inverse * Vector3D(dot(S2, E2), dot(S1, S), dot(S2, r.d));
+    
+    double t = RHS.x;
+    double b1 = RHS.y;
+    double b2 = RHS.z;
+    double b3 = 1 - b1 - b2;
+    
+    bool time_bounded = (t >= r.min_t) && (t <= r.max_t);
+    bool triangle_bounded = (b1 >= 0) && (b1 <=1) && (b2 >= 0) && (b2 <=1) && (b3 >= 0) && (b3 <=1);
 
-
-  return true;
+  return time_bounded && triangle_bounded;
 
 }
 
@@ -37,6 +52,39 @@ bool Triangle::intersect(const Ray &r, Intersection *isect) const {
   // Part 1, Task 3:
   // implement ray-triangle intersection. When an intersection takes
   // place, the Intersection data should be updated accordingly
+    Vector3D E1 = p2 - p1;
+    Vector3D E2 = p3 - p1;
+    Vector3D S = r.o - p1;
+    Vector3D S1 = cross(r.d, E2);
+    Vector3D S2 = cross(S, E1);
+    
+    
+    double determinant_inverse = 1 / dot(S1, E1);
+    Vector3D RHS = determinant_inverse * Vector3D(dot(S2, E2), dot(S1, S), dot(S2, r.d));
+    
+    double t = RHS.x;
+    double b1 = RHS.y;
+    double b2 = RHS.z;
+    double b3 = 1 - b1 - b2;
+    
+    bool time_bounded = (t >= r.min_t) && (t <= r.max_t);
+    bool triangle_bounded = (b1 >= 0) && (b1 <=1) && (b2 >= 0) && (b2 <=1) && (b3 >= 0) && (b3 <=1);
+    
+    if (time_bounded && triangle_bounded) {
+        r.max_t = t;
+        isect->t = t;
+        isect-> n = b1 * n1 + b2 * n2 + b3 * n3;
+        isect->primitive = this;
+        isect->bsdf = get_bsdf();
+        
+        return true;
+    } else {
+        return false;
+    }
+    
+    
+    
+    
 
 
   return true;
